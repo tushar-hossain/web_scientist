@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(97, 97, 97, 0.494);
+}
+
+.menu_hover:hover > .option_nav ul{
+
+}
+.backg_round{
+    width: 100%;
+    background-color: white;
+    padding: 2px;
+}
+.barnd_image{
+    cursor: pointer;
+}
+
+.search_box{   
+    width: 100%; 
+    margin: auto;
+} 
+.search_box input::placeholder{
+    font-size: 12px;
+} 
+.i_back{           
+    margin: auto;
+}
+.btn_color{    
+    outline: none;
+    border: 1px solid #c7e9f8;
+    border-radius: 3px;
+}
+.btn_color:hover{
+    
+    background-color: #c7e9f8;
+}
+.log_button{
+    font-size: 14px;
+    border: 1px solid rgb(236, 185, 185);
+}
+.log_button:hover{
+    background-color: #1299E8;
+}
+.f_sixe{
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+.i_shop{
+    color: #1299E8;
+    cursor: pointer;
+}
+
+.arrow{
+    margin-left: 2px;
+}
+.carousel_height img{
+    width: 100%;
+    max-height: 244px;
+}
+.option_nav{
+    background-color: white;
+}
+
+.option_sidebar a{
+    text-decoration: none;
+    
+}
+.option_sidebar li{
+    width: 180px;
+    height: 40px;
+    background-color: #a0a0a088;
+    border: 1px solid white;
+    font-size: 14px;
+    list-style: none;
+    text-align: center; 
+}
+
+.option_sidebar li ul{
+    margin-left: 150px;
+    margin-top: -10px;
+}
+
+
+
+.option_nav ul ul{
+    display: none;
+}
+.option_nav ul li:hover > ul {
+    display: block;
+    cursor: pointer;
+    z-index: auto;
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px) {
+    
+    .search_box{   
+        width: 50%;
+        margin-left: -7px;
+    } 
+    .log_in{
+        width: 170px;
+        margin-left: -100px;
+        margin-top: 5px;        
+    }
+
+    .carousel_height{
+        width: 100%;
+        max-height: 244px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .search_box{   
+        width: 65%;
+        margin-left: -5px;
+    } 
+    .log_in{
+        width: 170px;
+        margin-left: -60px;
+        margin-top: 5px;
+   }
+   .carousel_height{
+    width: 100%;
+    max-height: 244px;
+}
+   
+}
