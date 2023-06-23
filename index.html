@@ -39,75 +39,51 @@
             <form class="d-flex search_box me-5">
                 <input class="form-control" type="search" placeholder="Search for products, brands and more">
                 <button class="btn_color"><a href=""><i class="fa-solid fa-magnifying-glass i_back"></i></a></button>
-            
                 <div class="d-flex gap-4 log_in">
-                    <div>
-                        <button class="log_button px-4 py-1">Login</button>
+                    <div class="log_button">
+                        <!-- <button class="log_button px-4 py-1">Login</button> -->
+                        <li class="dropdown "><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Login</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">Sign Up</li>
+                                <li class="dropdown-item">Sign in</li>
+                            </ul>
+                        </li>
                     </div>
                     <div class=" d-flex gap-3">
                         <a href=""><i class="fa-sharp fa-solid fa-cart-shopping i_shop"></i></a>
                         <a class="f_sixe i_shop">Cart</a>
                     </div>
-                </div>
-            
-            </form>   
-
-            
+                </div> 
+            </form> 
+                          
         </div> 
     </nav>
 
     <header> 
        <div class="container-fluid">
-        <div class="row d-flex justify-content-between row_ca">
-            <div class="col-3 sidebar_nav">
+        <div class="row d-flex">
+            <div class="sidebar_nav">
               <ul>
-                  <li><a href="">Home</a>
+                  <li><a href="">Electronics Device <span>&#62;</span></a>
                       <ul>
-                          <li><a href="">Servicef</a></li>
-                          <li><a href="">Service</a></li>
-                          <li><a href="">Service</a>
-  
-                              <ul>
-                                  <li><a href="">Service</a></li>
-                                  <li><a href="">Service</a></li>
-                                  <li><a href="">Service</a></li>
-                                  <li><a href="">Service</a></li>
-                                  <li><a href="">Service</a></li>
-                              </ul>
-                          </li>
-  
-                          <li><a href="">Service</a></li>
-                          <li><a href="">Service</a></li>
                           <li><a href="">Service</a></li>
                           <li><a href="">Service</a></li>
                           <li><a href="">Service</a></li>
                       </ul>
-                  </li>
-  
-                  <li><a href="">Home</a>
+                  </li>  
+                  <li><a href="">Home Appliances <span>&#62;</span></a>
                       <ul>
-                          <li><a href="">Service</a></li>
+                          <li><a href="">Service </a></li>
                           <li><a href="">Service</a></li>
                       </ul>
-                  </li>
-  
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Home</a></li>
-  
-                  <li><a href="">Home</a>
-                      <ul>
-                          <li><a href="">Service</a></li>
-                          <li><a href="">Service</a></li>
-                      </ul>
-                  </li>
-  
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Home</a></li>
+                  </li>  
+                  <li><a href="">Health & Beauty <span>&#62;</span></a></li>
+                  <li><a href="">Babies & Toys <span>&#62;</span></a></li>
+                  <li><a href="">E-bike <span>&#62;</span></a></li>  
               </ul>
             </div> 
       
-              <div class="col-9 carousel_height">
+              <div class="carousel_height">
                   <div class="carousel slide" data-bs-ride="carousel">
                       <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -125,6 +101,11 @@
           </div>
        </div>
     </header>
+
+
+
+    
+
 
     <!-- js link -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
